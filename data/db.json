@@ -1,0 +1,267 @@
+{
+  "products": [
+    {
+      "id": 10001,
+      "name": "Mindful Momentum",
+      "overview": "Build daily mindfulness habits in minutes.",
+      "long_description": "A science-backed guide to cultivating clarity and calm through short, consistent mindfulness practices.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10001.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 5,
+      "best_seller": true
+    },
+    {
+      "id": 10002,
+      "name": "Digital Product Playbook",
+      "overview": "Launch passive income products fast.",
+      "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10002.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10003,
+      "name": "JavaScript Cart Mastery",
+      "overview": "Master dynamic cart logic with JS.",
+      "long_description": "Covers modular architecture, event delegation, DOM manipulation, and Jasmine testing for cart systems.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1523726491678-bf852e717f6a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10003.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10004,
+      "name": "Wellness Printables Toolkit",
+      "overview": "Design and sell mental health printables.",
+      "long_description": "Includes Canva templates, copywriting tips, and design principles for impactful wellness products.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10004.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 7,
+      "best_seller": true
+    },
+    {
+      "id": 10005,
+      "name": "React Component Patterns",
+      "overview": "Reusable React components made simple.",
+      "long_description": "Explore composition, controlled inputs, and state management with real-world examples.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10005.avif",
+      "rating": 3,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10006,
+      "name": "Faceless YouTube Blueprint",
+      "overview": "Automate content and grow income.",
+      "long_description": "Learn how to build faceless YouTube channels using AI tools, scripts, and niche research.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10006.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 10,
+      "best_seller": false
+    },
+    {
+      "id": 10007,
+      "name": "Tailwind CSS Crash Course",
+      "overview": "Rapid UI development with Tailwind.",
+      "long_description": "Covers utility-first styling, responsive design, and workflow integration with npm.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1621839673705-6617adf9e890?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10007.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 2,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "OOP for Product Catalogs",
+      "overview": "Class-based modeling for scalable UIs.",
+      "long_description": "Learn inheritance, polymorphism, and reusable architecture for rendering product data.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10008.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10009,
+      "name": "Jasmine Testing Essentials",
+      "overview": "Write resilient test suites for JS apps.",
+      "long_description": "Includes DOM mocking, error handling, and test-driven development strategies.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1624953587687-daf255b6b80a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10009.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10010,
+      "name": "Mental Clarity Journal",
+      "overview": "Printable journal for daily reflection.",
+      "long_description": "Designed to help users track moods, goals, and gratitude with calming visuals and prompts.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10010.avif",
+      "rating": 4,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10011,
+      "name": "Passive Income Starter Kit",
+      "overview": "Your roadmap to online earnings.",
+      "long_description": "Covers affiliate marketing, digital products, and automation tools for beginners.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10011.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    },
+    {
+      "id": 10012,
+      "name": "Emotional Resilience Workbook",
+      "overview": "Build inner strength through reflection.",
+      "long_description": "Includes exercises, affirmations, and guided prompts for emotional growth.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10012.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 1,
+      "best_seller": false
+    },
+    {
+      "id": 10013,
+      "name": "Niche Research Masterclass",
+      "overview": "Find profitable digital product ideas.",
+      "long_description": "Learn how to validate niches using data, trends, and buyer psychology.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1633356122102-3fe601e05bd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10013.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10014,
+      "name": "Frontend Debugging Toolkit",
+      "overview": "Troubleshoot like a pro.",
+      "long_description": "Includes browser dev tools, npm workflows, and common error patterns.",
+      "price": 19,
+      "poster": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10014.avif",
+      "rating": 4,
+      "in_stock": false,
+      "size": 3,
+      "best_seller": false
+    },
+    {
+      "id": 10015,
+      "name": "Canva Printables Workshop",
+      "overview": "Design aesthetic printables fast.",
+      "long_description": "Step-by-step guide to creating and exporting printables for Etsy and Gumroad.",
+      "price": 9,
+      "poster": "https://images.unsplash.com/photo-1587440871875-191322ee64b0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10015.avif",
+      "rating": 2,
+      "in_stock": false,
+      "size": 1,
+      "best_seller": false
+    }
+  ],
+  "featured_products": [
+    {
+      "id": 10004,
+      "name": "Wellness Printables Toolkit",
+      "overview": "Design and sell mental health printables.",
+      "long_description": "Includes Canva templates, copywriting tips, and design principles for impactful wellness products.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1595617795501-9661aafda72a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10004.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 7,
+      "best_seller": true
+    },
+    {
+      "id": 10006,
+      "name": "Faceless YouTube Blueprint",
+      "overview": "Automate content and grow income.",
+      "long_description": "Learn how to build faceless YouTube channels using AI tools, scripts, and niche research.",
+      "price": 99,
+      "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10006.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 10,
+      "best_seller": false
+    },
+    {
+      "id": 10008,
+      "name": "OOP for Product Catalogs",
+      "overview": "Class-based modeling for scalable UIs.",
+      "long_description": "Learn inheritance, polymorphism, and reusable architecture for rendering product data.",
+      "price": 29,
+      "poster": "https://images.unsplash.com/photo-1613490900233-141c5560d75d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+      "image_local": "/assets/images/10008.avif",
+      "rating": 5,
+      "in_stock": true,
+      "size": 3,
+      "best_seller": true
+    }
+  ],
+  "orders": [],
+  "users": [
+    {
+      "email": "benciel@example.com",
+      "password": "$2a$10$BQtxFDGK6QxeW0D2kQTW1.MYoZxX2s/e1EfWYdkbVVbvK0vFDHL0W",
+      "name": "benciel",
+      "id": 1
+    },
+    {
+      "email": "asd@example.com",
+      "password": "$2a$10$7sSuI1fctnyVkQsGWnMvkeul/elvvnrXqvn33wyTc4.fzuVP8x5Aq",
+      "name": "asd",
+      "id": 2
+    },
+    {
+      "email": "cabutinb@gmail.com",
+      "password": "$2a$10$xzSCiQAb7eDELBVNgSisY.eqYHEVj8AkulC7Mkq4w1ARi4VmpUiQC",
+      "name": "Benciel",
+      "id": 3
+    },
+    {
+      "email": "cielle@example.com",
+      "password": "$2a$10$apdTrCeUvIh6QtRUonizCebGeWQUhgBHacYPR8ppY0N2VOQOnMyxu",
+      "name": "Cielle",
+      "id": 4
+    }
+  ]
+}
