@@ -1,5 +1,5 @@
 import { useFilter } from "../../../context";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useRef } from "react";
 
 export const FilterBar = ({setShow}) => {
   const {state, dispatch} = useFilter();
