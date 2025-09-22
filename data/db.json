@@ -237,7 +237,347 @@
       "best_seller": true
     }
   ],
-  "orders": [],
+  "orders": [
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Mindful Momentum",
+          "overview": "Build daily mindfulness habits in minutes.",
+          "long_description": "A science-backed guide to cultivating clarity and calm through short, consistent mindfulness practices.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 48,
+      "quantity": 2,
+      "user": {
+        "name": "benciel",
+        "email": "benciel@example.com",
+        "id": 1
+      },
+      "id": 1
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Mindful Momentum",
+          "overview": "Build daily mindfulness habits in minutes.",
+          "long_description": "A science-backed guide to cultivating clarity and calm through short, consistent mindfulness practices.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        },
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 48,
+      "quantity": 2,
+      "user": {
+        "name": "benciel",
+        "email": "benciel@example.com",
+        "id": 1
+      },
+      "id": 2
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "benciel",
+        "email": "benciel@example.com",
+        "id": 1
+      },
+      "id": 3
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 4
+    },
+    {
+      "cartList": [
+        {
+          "id": 10011,
+          "name": "Passive Income Starter Kit",
+          "overview": "Your roadmap to online earnings.",
+          "long_description": "Covers affiliate marketing, digital products, and automation tools for beginners.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10011.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 29,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 5
+    },
+    {
+      "cartList": [
+        {
+          "id": 10006,
+          "name": "Faceless YouTube Blueprint",
+          "overview": "Automate content and grow income.",
+          "long_description": "Learn how to build faceless YouTube channels using AI tools, scripts, and niche research.",
+          "price": 99,
+          "poster": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10006.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 10,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 99,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 6
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 7
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 8
+    },
+    {
+      "cartList": [
+        {
+          "id": 10001,
+          "name": "Mindful Momentum",
+          "overview": "Build daily mindfulness habits in minutes.",
+          "long_description": "A science-backed guide to cultivating clarity and calm through short, consistent mindfulness practices.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 29,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 9
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 10
+    },
+    {
+      "cartList": [
+        {
+          "id": 10005,
+          "name": "React Component Patterns",
+          "overview": "Reusable React components made simple.",
+          "long_description": "Explore composition, controlled inputs, and state management with real-world examples.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1639322537228-f710d846310a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10005.avif",
+          "rating": 3,
+          "in_stock": true,
+          "size": 3,
+          "best_seller": false
+        }
+      ],
+      "amount_paid": 19,
+      "quantity": 1,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 11
+    },
+    {
+      "cartList": [
+        {
+          "id": 10002,
+          "name": "Digital Product Playbook",
+          "overview": "Launch passive income products fast.",
+          "long_description": "Step-by-step guide to creating and selling digital products like printables, templates, and mini-courses.",
+          "price": 19,
+          "poster": "https://images.unsplash.com/photo-1580894894513-541e068a3e2b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10002.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 2,
+          "best_seller": false
+        },
+        {
+          "id": 10001,
+          "name": "Mindful Momentum",
+          "overview": "Build daily mindfulness habits in minutes.",
+          "long_description": "A science-backed guide to cultivating clarity and calm through short, consistent mindfulness practices.",
+          "price": 29,
+          "poster": "https://images.unsplash.com/photo-1633356122544-f134324a6cee?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=650&q=40",
+          "image_local": "/assets/images/10001.avif",
+          "rating": 5,
+          "in_stock": true,
+          "size": 5,
+          "best_seller": true
+        }
+      ],
+      "amount_paid": 48,
+      "quantity": 2,
+      "user": {
+        "name": "Cielle",
+        "email": "cielle@example.com",
+        "id": 4
+      },
+      "id": 12
+    }
+  ],
   "users": [
     {
       "email": "benciel@example.com",

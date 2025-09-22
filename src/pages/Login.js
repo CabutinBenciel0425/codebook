@@ -26,7 +26,7 @@ export const Login = ({setDropdown}) => {
 
     if(data.accessToken){
       sessionStorage.setItem("token", JSON.stringify(data.accessToken));
-      sessionStorage.setItem("cbid", JSON.stringify(data.use.id));
+      sessionStorage.setItem("cbid", JSON.stringify(data.user.id));
     }
   }
 
