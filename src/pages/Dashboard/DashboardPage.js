@@ -4,6 +4,7 @@ import { DashboardCard } from "./components/DashboardCard";
 import { DashboardEmpty } from "./components/DashboardEmpty";
 import { getUserOrders } from "../../services";
 import { useTitle } from "../../hooks/useTitle";
+import { toast } from "react-toastify";
 
 export const DashboardPage = () => {
   const [orders, setOrders] = useState([]);
@@ -11,8 +12,14 @@ export const DashboardPage = () => {
 
   useEffect(() => {
     async function fetchOrders(){
-      const data = await getUserOrders();
-      setOrders(data);
+      try{
+        const data = await getUserOrders();
+        setOrders(data);
+      }catch(error){
+        toast.error(error.message, {
+            closeOnClick: true
+        });
+      }
     }
     fetchOrders();
   }, []);

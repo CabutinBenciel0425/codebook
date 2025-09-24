@@ -8,6 +8,7 @@ import { ProductCard } from "../../components";
 import { FilterBar } from "./components/FilterBar";
 
 import { getProductList } from "../../services";
+import { toast } from "react-toastify";
 
 export const ProductsList = () => {
   const { products, initialProductList } = useFilter();
@@ -19,8 +20,14 @@ export const ProductsList = () => {
 
   useEffect(() => {
     async function fetchProducts(){
-      const data = await getProductList(searchTerm);
-      initialProductList(data);
+      try{
+        const data = await getProductList(searchTerm);
+        initialProductList(data);
+      }catch(error){
+        toast.error(error.message, {
+          closeOnClick: true
+        });
+      }
     }
     fetchProducts();
   }, [searchTerm]);

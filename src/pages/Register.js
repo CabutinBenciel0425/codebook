@@ -14,20 +14,24 @@ export const Register = () => {
 
   async function handleRegister(event){
     event.preventDefault();
-    const authDetail = {
+    try{
+      const authDetail = {
       name: name.current.value,
       email: email.current.value,
       password: password.current.value,
+      }
+      const data = await register(authDetail);
+      // data.accessToken ? navigate("/products") : toast.error(data);
+      if (data.accessToken) {
+        navigate("/products");
+      } else {
+        toast.error(data);
+      }
+    }catch(error){
+      toast.error(error.message, {
+          closeOnClick: true
+        });
     }
-    const data = await register(authDetail);
-    // data.accessToken ? navigate("/products") : toast.error(data);
-    if (data.accessToken) {
-      console.log("Navigating to /products");
-      navigate("/products");
-    } else {
-      console.log("No accessToken, showing error");
-      toast.error(data);
-  }
   }
 
   return (
